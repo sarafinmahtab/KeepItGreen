@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KeepItGreen</string>
+
+    <string name="FACEBOOK_APP_ID">353712681843447</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">14e90527acb65b999d7f62b7588e53f8</string>
+
+    <string name="ak_login_protocol_scheme">ak353712681843447</string>
+    <string name="login_error">An Error Occurred</string>
+    <string name="login_cancelled">Login cancelled</string>
+
+</resources>
