@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeeDetailsActivity"
+    android:background="@drawable/ic_main_background"
+    android:padding="12dp" >
+
+    <TextView
+        android:id="@+id/current_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:text="Your current location"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Dhaka, Bangladesh"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/see_details_back_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back_btn" />
+
+    <Button
+        android:id="@+id/tree_pie_button"
+        android:layout_width="200dp"
+        android:layout_height="225dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tree_pie" />
+
+    <Button
+        android:id="@+id/dust_pie_button"
+        android:layout_width="125dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginRight="-25dp"
+        android:layout_toLeftOf="@+id/tree_pie_button"
+        android:layout_toStartOf="@+id/tree_pie_button"
+        android:background="@drawable/dust_pie" />
+
+    <Button
+        android:id="@+id/water_pie_button"
+        android:layout_width="125dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginStart="-25dp"
+        android:layout_toRightOf="@+id/tree_pie_button"
+        android:layout_toEndOf="@+id/tree_pie_button"
+        android:background="@drawable/water_pie" />
+
+</RelativeLayout>
